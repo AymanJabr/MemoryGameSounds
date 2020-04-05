@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        android:id="@+id/textScore"
+        android:text="Score: 999!"
+        android:textColor="#fff"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:id="@+id/textDifficult"
+        android:text="Difficulty: 4"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:id="@+id/textWatchGo"
+        android:text="Watch/Go"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:text="1"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="8dp"
+        android:text="2"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="8dp"
+        android:text="3"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/button3"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="4"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:textSize="30sp"
+        android:id="@+id/button4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.8"
+        android:text="Replay"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:id="@+id/buttonReplay"/>
+
+
+</LinearLayout>
